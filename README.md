@@ -1,50 +1,29 @@
-# Welcome to your Expo app 👋
+# Lab Assignment 1: Spinning App React Native App
+## step-by-step instructions for setting up react native app:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### System requirements:
+    CPU: 12th Gen Intel(R) Core(TM) i7-12650H   2.30 GHz
+    RAM size: 40.0 GB (39.6 GB usable)
+    Windows version: Windows 11 Home - 23H2
+### Neccessary Tools needed to setup react native project:
+#### Node js and JDK:
+    1. Type Open Command on your windows start menu
+    2. Right click and open as administrator
+    3. Run this command
+        choco install -y nodejs-lts microsoft-openjdk17
+#### Android Studio:
+    You are going to need Android Studio to see what your code is doing so install Android studio
+    on this link - [Here](https://developer.android.com/studio/index.html)!
 
-## Get started
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Create your React Native Project: 
+    1. Create an empty folder of where you want your project to be
+    2. Open VS Code
+    3. Click on file (Should be top left corner)
+    4. Click on open folder
+    5. Select the empty folder you just created and click on open 
+    6. Open the terminal of VS Code and make sure that the path is on the folder you created
+    7. Then run this command on the terminal and click enter
+        npx create-expo-app@latest
+    8. You will be asked to name your app name, give it a name and click enter
+    
