@@ -4,20 +4,24 @@
  * @format
  */
 
-import React from "react";
-import {
-  SafeAreaView
-} from "react-native";
-import ToDoForm from "@/components/ToDoForm.js";
+import React, { useState } from "react";
+import { SafeAreaView } from "react-native";
 import ToDoList from "@/components/ToDoList.js";
+
 function App() {
-  return <SafeAreaView>
-    <ToDoList />
-    <ToDoForm />
 
-  </SafeAreaView>;
+  const [tasks, setTasks] = useState([
+    'Do laundry',
+    'Go to gym',
+    'Walk dog'
+  ]);
+
+  return (
+    <SafeAreaView>
+      {/* Step 2: Pass tasks as a prop to ToDoList */}
+      <ToDoList tasks={tasks} />
+    </SafeAreaView>
+  );
 }
-
-
 
 export default App;
