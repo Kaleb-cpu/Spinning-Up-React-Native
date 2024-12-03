@@ -1,4 +1,4 @@
-import  App  from '@/components/app.js'
+import  App  from '..'
 
 export default function HomeScreen() {
   return (
